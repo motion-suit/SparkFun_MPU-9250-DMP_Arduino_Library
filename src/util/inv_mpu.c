@@ -46,6 +46,7 @@
 #define get_ms    arduino_get_clock_ms
 #define log_i     _MLPrintLog
 #define log_e     _MLPrintLog 
+#define min(a,b) (a>b?b:a)
 static inline int reg_int_cb(struct int_param_s *int_param)
 {
 	
